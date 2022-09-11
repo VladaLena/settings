@@ -1,0 +1,11 @@
+Emmet Live
+eCSStractor for VSCode
+Google Fonts
+htmltagwrap
+Live Sass Compiler
+SCSS IntelliSense
+Live Server
+Path Autocomplete
+Prettier - Code formatter
+Auto Complete Tag
+Better Jinja

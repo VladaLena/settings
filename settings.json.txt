@@ -1,0 +1,54 @@
+{
+    "emmet.includeLanguages": {"jinja-html": "html"},
+
+    //Убирает хлебные крошки вверху
+    "breadcrumbs.enabled": false,
+    //Перенос на новую строку
+    "editor.wordWrap": "off",
+    "editor.tabSize": 2,
+
+    //Выстраивание вложенности файлов и папок
+    "explorer.compactFolders": false,
+
+    //Обрезание пробелов в конце
+    "files.trimTrailingWhitespace": true,
+
+    //Мигание курсора в терминале
+    "terminal.integrated.cursorBlinking": true,
+
+    // Use vim hjkl to navigate folders.
+    "workbench.list.keyboardNavigation": "simple",
+    "workbench.list.automaticKeyboardNavigation": false,
+
+
+    "workbench.colorTheme": "Default Dark+",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.automationShell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "workbench.colorCustomizations": {
+            "editorLineNumber.foreground": "#eee"
+        },
+    "path-autocomplete.pathMappings": {
+        "@img": "${folder}/src/img",
+        "@scss": "${folder}/src/scss",
+        "@js": "${folder}/src/js",
+
+    },
+
+"liveSassCompile.settings.generateMap": false,
+"liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 5 versions"
+],
+"liveSassCompile.settings.formats": [
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+    }
+],
+"liveSassCompile.settings.showOutputWindow": false,
+"editor.formatOnSave": true,
+
+}
